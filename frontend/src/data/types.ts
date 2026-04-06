@@ -1,0 +1,59 @@
+export type Category = "Методология" | "Фактическое действие" | "Контроль/Аналитика";
+export type ActionLabel = "Оставить" | "Передать" | "Оптимизировать" | "Оптимизировать / Передать" | "" | "Решение по результатам пилота" | "Оптимизировать / Оставить" | "Убрать";
+export type LinkKind = "related" | "depends_on" | "controls";
+export type Periodicity = "Ежедневно" | "Еженедельно" | "Ежемесячно" | "По событию" | "Разово" | "";
+export type Complexity = "Низкая" | "Средняя" | "Высокая" | "";
+export type Efficiency = "Низкая" | "Средняя" | "Высокая" | "";
+
+export interface Row {
+  id: string;
+  step: 1 | 2;
+  category: Category;
+  detailText: string;
+  who: string;
+  actionLabel: ActionLabel;
+  periodicity?: Periodicity;
+  complexity?: Complexity;
+  artifact?: string;
+  basis?: string;
+  artifactUsage?: string;
+  purpose?: string;
+  efficiency?: Efficiency;
+  transferTo?: string;
+  controlPoint?: string;
+  nextAction?: string;
+}
+
+export interface Link {
+  id: string;
+  fromId: string;
+  toId: string;
+  kind: LinkKind;
+  note?: string;
+}
+
+export interface FunctionDetails {
+  rows: Row[];
+  links: Link[];
+}
+
+export interface FunctionRecord {
+  id: string;
+  name: string;
+  marker: string;
+  centralization: string;
+  competenceCenter: string;
+  strategyProjects: string[];
+  curatorCA: string;
+  nuZnu: string;
+  managerMiudol: string;
+  niZni: string;
+  details: FunctionDetails | {};
+}
+
+export type UndoActionType = "add_row" | "remove_link" | "add_links" | "add_dual";
+
+export interface UndoAction {
+  type: UndoActionType;
+  payload: any;
+}

@@ -1,0 +1,62 @@
+import { createSlice, createSelector, type PayloadAction } from "@reduxjs/toolkit";
+import type { FunctionRecord, FunctionDetails } from "src/data/types";
+import mockFunctions from "src/data/mockDataBase";
+
+interface FunctionsRegistryState {
+  byId: Record<string, FunctionRecord>;
+  ids: string[];
+}
+
+
+
+const initialState: FunctionsRegistryState = {
+  byId: mockFunctions.reduce((acc, fn) => {
+    acc[fn.id] = fn;
+    return acc;
+  }, {} as Record<string, FunctionRecord>),
+  ids: mockFunctions.map(fn => fn.id),
+};
+
+const functionsRegistrySlice = createSlice({
+  name: "functionsRegistry",
+  initialState,
+  reducers: {
+    addFunction(state, action: PayloadAction<FunctionRecord>) {
+      const fn = action.payload;
+      state.byId[fn.id] = fn;
+      state.ids.unshift(fn.id);
+    },
+    removeFunction(state, action: PayloadAction<string>) {
+      const id = action.payload;
+      delete state.byId[id];
+      state.ids = state.ids.filter(fid => fid !== id);
+    },
+    updateFunctionDetails(state, action: PayloadAction<{ id: string; details: FunctionDetails }>) {
+      const { id, details } = action.payload;
+      if (state.byId[id]) {
+        state.byId[id].details = details;
+      }
+    },
+  },
+});
+
+export const { addFunction, removeFunction, updateFunctionDetails } = functionsRegistrySlice.actions;
+
+export const selectFunctionIds = (state: { functionsRegistry: FunctionsRegistryState }) =>
+    state.functionsRegistry.ids;
+
+export const selectFunctionById = (state: { functionsRegistry: FunctionsRegistryState }, id: string) =>
+    state.functionsRegistry.byId[id] ?? null;
+
+export const selectAllFunctions = createSelector(
+    [
+      (state: { functionsRegistry: FunctionsRegistryState }) => state.functionsRegistry.ids,
+      (state: { functionsRegistry: FunctionsRegistryState }) => state.functionsRegistry.byId,
+    ],
+    (ids, byId) => ids.map(id => byId[id])
+);
+
+export const selectFunctionsCount = (state: { functionsRegistry: FunctionsRegistryState }) =>
+    state.functionsRegistry.ids.length;
+
+export default functionsRegistrySlice.reducer;
