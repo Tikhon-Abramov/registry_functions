@@ -182,7 +182,7 @@ export const EXTRA_FIELD_LABELS: { key: keyof Row; label: string }[] = [
   { key: "artifactUsage", label: "Как используется артефакт" },
   { key: "purpose", label: "Зачем выполняется" },
   { key: "efficiency", label: "Эффективность" },
-  { key: "transferTo", label: "Кому передать" },
+  // { key: "transferTo", label: "Кому передать" },
   // { key: "controlPoint", label: "Пункт контроля" },
   // { key: "nextAction", label: "Следующее действие" },
 ];

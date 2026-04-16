@@ -156,7 +156,7 @@ export default function RowDetailsPanel({ row, onUpdateRow }: RowDetailsPanelPro
           </Button>
         </Box>
 
-        <Box sx={{ flex: 1, overflow: "auto", px: 2, display: "flex", flexDirection: "column", gap: 1.5, pb: 1 }}>
+        <Box sx={{ flex: 1, overflow: "auto", px: 2, pt:2, display: "flex", flexDirection: "column", gap: 1.5, pb: 1 }}>
           {renderEditSelect("Периодичность", (draft.periodicity as string) || "", PERIODICITIES, "periodicity", "edit-periodicity")}
           {renderEditSelect("Сложность", (draft.complexity as string) || "", COMPLEXITIES, "complexity", "edit-complexity")}
           {renderEditTextField("Артефакт", (draft.artifact as string) || "", "artifact", "edit-artifact")}

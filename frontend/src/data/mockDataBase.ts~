@@ -6,7 +6,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Ведение ОКНО и учет платежей",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ОКНО",
+        competenceCenter: "Ведение ОКНО и учет платежейЗачеты, возвраты",
         strategyProjects: [],
         curatorCA: "Шубина Наталья Александровна",
         nuZnu: "Шалыгина Наталья Викторовна",
@@ -1409,7 +1409,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Зачеты, возвраты",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ОКНО",
+        competenceCenter: "Ведение ОКНО и учет платежейЗачеты, возвраты",
         strategyProjects: [],
         curatorCA: "Шубина Наталья Александровна",
         nuZnu: "Шалыгина Наталья Викторовна",
@@ -2128,7 +2128,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Взыскание задолженности со счетов в банке",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ПМВ",
+        competenceCenter: "Процессные меры взыскания",
         strategyProjects: [],
         curatorCA: "Шулепов Александр Михайлович",
         nuZnu: "Мещеряков Сергей Владимирович",
@@ -2569,80 +2569,7 @@ export const mockFunctions: FunctionRecord[] = [
                     nextAction: ""
                 }
             ],
-            links: [
-                {
-                    id: "l1",
-                    fromId: "row_2",
-                    toId: "row_7",
-                    kind: "related",
-                },
-                {
-                    id: "l2",
-                    fromId: "row_3",
-                    toId: "row_7",
-                    kind: "related",
-                },
-                {
-                    id: "l3",
-                    fromId: "row_4",
-                    toId: "row_8",
-                    kind: "related",
-                },
-                {
-                    id: "l4",
-                    fromId: "row_5",
-                    toId: "row_9",
-                    kind: "related",
-                },
-                {
-                    id: "l5",
-                    fromId: "row_6",
-                    toId: "row_9",
-                    kind: "related",
-                },
-                {
-                    id: "l6",
-                    fromId: "row_13",
-                    toId: "row_21",
-                    kind: "related",
-                },
-                {
-                    id: "l7",
-                    fromId: "row_14",
-                    toId: "row_21",
-                    kind: "related",
-                },
-                {
-                    id: "l8",
-                    fromId: "row_15",
-                    toId: "row_22",
-                    kind: "related",
-                },
-                {
-                    id: "l9",
-                    fromId: "row_16",
-                    toId: "row_22",
-                    kind: "related",
-                },
-                {
-                    id: "l10",
-                    fromId: "row_17",
-                    toId: "row_22",
-                    kind: "related",
-                },
-                {
-                    id: "l11",
-                    fromId: "row_18",
-                    toId: "row_22",
-                    kind: "related",
-                },
-                {
-                    id: "l12",
-                    fromId: "row_19",
-                    toId: "row_23",
-                    kind: "related",
-                },
-            ]
+            links: []
         }
     },
     {
@@ -2650,7 +2577,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Информирование о задолженности",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ПМВ",
+        competenceCenter: "Процессные меры взыскания",
         strategyProjects: [],
         curatorCA: "Шулепов Александр Михайлович",
         nuZnu: "Мещеряков Сергей Владимирович",
@@ -3019,50 +2946,7 @@ export const mockFunctions: FunctionRecord[] = [
                     nextAction: ""
                 }
             ],
-            links: [
-                {
-                    id: "l1",
-                    fromId: "row_2",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l2",
-                    fromId: "row_3",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l3",
-                    fromId: "row_4",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l4",
-                    fromId: "row_11",
-                    toId: "row_16",
-                    kind: "related",
-                },
-                {
-                    id: "l5",
-                    fromId: "row_12",
-                    toId: "row_17",
-                    kind: "related",
-                },
-                {
-                    id: "l6",
-                    fromId: "row_13",
-                    toId: "row_18",
-                    kind: "related",
-                },
-                {
-                    id: "l7",
-                    fromId: "row_14",
-                    toId: "row_18",
-                    kind: "related",
-                },
-            ]
+            links: []
         }
     },
     {
@@ -3070,7 +2954,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Взыскание с лицевых счетов",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ПМВ",
+        competenceCenter: "Процессные меры взыскания",
         strategyProjects: [],
         curatorCA: "Шулепов Александр Михайлович",
         nuZnu: "Мещеряков Сергей Владимирович",
@@ -3457,62 +3341,7 @@ export const mockFunctions: FunctionRecord[] = [
                     nextAction: ""
                 }
             ],
-            links: [
-                {
-                    id: "l1",
-                    fromId: "row_2",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l2",
-                    fromId: "row_3",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l3",
-                    fromId: "row_4",
-                    toId: "row_6",
-                    kind: "related",
-                },
-                {
-                    id: "l4",
-                    fromId: "row_11",
-                    toId: "row_18",
-                    kind: "related",
-                },
-                {
-                    id: "l5",
-                    fromId: "row_12",
-                    toId: "row_19",
-                    kind: "related",
-                },
-                {
-                    id: "l6",
-                    fromId: "row_13",
-                    toId: "row_20",
-                    kind: "related",
-                },
-                {
-                    id: "l7",
-                    fromId: "row_14",
-                    toId: "row_20",
-                    kind: "related",
-                },
-                {
-                    id: "l8",
-                    fromId: "row_15",
-                    toId: "row_20",
-                    kind: "related",
-                },
-                {
-                    id: "l9",
-                    fromId: "row_16",
-                    toId: "row_20",
-                    kind: "related",
-                },
-            ]
+            links: []
         }
     },
     {
@@ -3520,7 +3349,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Приостановление взыскания по суду",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ПМВ",
+        competenceCenter: "Процессные меры взыскания",
         strategyProjects: [],
         curatorCA: "Шулепов Александр Михайлович",
         nuZnu: "Мещеряков Сергей Владимирович",
@@ -3681,10 +3510,10 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Формирование РАУ",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "РАУ",
+        competenceCenter: "Работа с арбитражными управляющими",
         strategyProjects: [],
         curatorCA: "Стефаненко Ксения Анатольевна",
-        nuZnu: "Шляпин Игорь Геннадиевич",
+        nuZnu: "",
         managerMiudol: "Гаврилина Виктория Владимировна",
         niZni: "Жигунова Екатерина Николаевна",
         details: {
@@ -4022,10 +3851,10 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Выявление и пресечение нарушений",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "РАУ",
+        competenceCenter: "Работа с арбитражными управляющими",
         strategyProjects: [],
         curatorCA: "Стефаненко Ксения Анатольевна",
-        nuZnu: "Шляпин Игорь Геннадиевич",
+        nuZnu: "",
         managerMiudol: "Гаврилина Виктория Владимировна",
         niZni: "Жигунова Екатерина Николаевна",
         details: {
@@ -4255,10 +4084,10 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Финансирование процедур банкротства",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "РАУ",
+        competenceCenter: "Работа с арбитражными управляющими",
         strategyProjects: [],
         curatorCA: "Стефаненко Ксения Анатольевна",
-        nuZnu: "Шляпин Игорь Геннадиевич",
+        nuZnu: "",
         managerMiudol: "Гаврилина Виктория Владимировна",
         niZni: "Жигунова Екатерина Николаевна",
         details: {
@@ -4398,10 +4227,10 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Обработка запросов АУ",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "РАУ",
+        competenceCenter: "Работа с арбитражными управляющими",
         strategyProjects: [],
         curatorCA: "Стефаненко Ксения Анатольевна",
-        nuZnu: "Шляпин Игорь Геннадиевич",
+        nuZnu: "",
         managerMiudol: "Гаврилина Виктория Владимировна",
         niZni: "Жигунова Екатерина Николаевна",
         details: {
@@ -4649,10 +4478,10 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Формирование выписки об АУ",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "РАУ",
+        competenceCenter: "Работа с арбитражными управляющими",
         strategyProjects: [],
         curatorCA: "Стефаненко Ксения Анатольевна",
-        nuZnu: "Шляпин Игорь Геннадиевич",
+        nuZnu: "",
         managerMiudol: "Гаврилина Виктория Владимировна",
         niZni: "Жигунова Екатерина Николаевна",
         details: {
@@ -4846,7 +4675,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Выявление деликтов, инициирование и сопровождение споров по производному долгу",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "ВПД",
+        competenceCenter: "Взыскание производного долга",
         strategyProjects: [],
         curatorCA: "Мякишев Семен Владимирович",
         nuZnu: "Мякишев Семен Владимирович",
@@ -5077,7 +4906,7 @@ export const mockFunctions: FunctionRecord[] = [
                     detailText: "Контроль оснований и сроков закрытия ПЗ",
                     who: "МИУДОЛ",
                     actionLabel: "Оставить",
-                    periodicity: "",
+                    periodicity: "Нет данных",
                     complexity: "",
                     artifact: "",
                     basis: "",
@@ -5151,7 +4980,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Поиск и фиксация активов",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "ВПД",
+        competenceCenter: "Взыскание производного долга",
         strategyProjects: [],
         curatorCA: "Мякишев Семен Владимирович",
         nuZnu: "Мякишев Семен Владимирович",
@@ -5438,7 +5267,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Исполнение судебных актов по взысканию производного долга",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ВПД",
+        competenceCenter: "Взыскание производного долга",
         strategyProjects: [],
         curatorCA: "Мякишев Семен Владимирович",
         nuZnu: "Мякишев Семен Владимирович",
@@ -5689,7 +5518,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Инициирование процедур банкротства",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ИПБ",
+        competenceCenter: "Инициирование процедур банкротства",
         strategyProjects: [],
         curatorCA: "Васильев Анатолий Николаевич",
         nuZnu: "Васильев Анатолий Николаевич",
@@ -6066,7 +5895,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Включение в РТК",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ИПБ",
+        competenceCenter: "Инициирование процедур банкротства",
         strategyProjects: [],
         curatorCA: "Васильев Анатолий Николаевич",
         nuZnu: "Васильев Анатолий Николаевич",
@@ -6407,7 +6236,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Сделки с ФНС",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ИПБ",
+        competenceCenter: "Инициирование процедур банкротства",
         strategyProjects: [],
         curatorCA: "Васильев Анатолий Николаевич",
         nuZnu: "Васильев Анатолий Николаевич",
@@ -6622,7 +6451,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "КоАП РФ",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ИПБ",
+        competenceCenter: "Инициирование процедур банкротства",
         strategyProjects: [],
         curatorCA: "Васильев Анатолий Николаевич",
         nuZnu: "Васильев Анатолий Николаевич",
@@ -6855,7 +6684,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Арест имущества должников",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "ПВА",
+        competenceCenter: "Арест имущества (ст. 77 НК РФ).Привлечение к угловной ответственности.Взыскание залогового имущества",
         strategyProjects: [],
         curatorCA: "Баркарь Александр Владимирович",
         nuZnu: "Исмагилова Эльвира Азатовна",
@@ -7440,128 +7269,7 @@ export const mockFunctions: FunctionRecord[] = [
                     nextAction: ""
                 }
             ],
-            links: [
-                {
-                    id: "l1",
-                    fromId: "row_2",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l2",
-                    fromId: "row_2",
-                    toId: "row_8",
-                    kind: "related",
-                },
-                {
-                    id: "l3",
-                    fromId: "row_3",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l4",
-                    fromId: "row_7",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l5",
-                    fromId: "row_10",
-                    toId: "row_8",
-                    kind: "related",
-                },
-                {
-                    id: "l6",
-                    fromId: "row_11",
-                    toId: "row_23",
-                    kind: "related",
-                },
-                {
-                    id: "l7",
-                    fromId: "row_12",
-                    toId: "row_31",
-                    kind: "related",
-                },
-                {
-                    id: "l8",
-                    fromId: "row_13",
-                    toId: "row_24",
-                    kind: "related",
-                },
-                {
-                    id: "l9",
-                    fromId: "row_14",
-                    toId: "row_25",
-                    kind: "related",
-                },
-                {
-                    id: "l10",
-                    fromId: "row_14",
-                    toId: "row_26",
-                    kind: "related",
-                },
-                {
-                    id: "l11",
-                    fromId: "row_14",
-                    toId: "row_32",
-                    kind: "related",
-                },
-                {
-                    id: "l12",
-                    fromId: "row_15",
-                    toId: "row_27",
-                    kind: "related",
-                },
-                {
-                    id: "l13",
-                    fromId: "row_15",
-                    toId: "row_28",
-                    kind: "related",
-                },
-                {
-                    id: "l14",
-                    fromId: "row_16",
-                    toId: "row_31",
-                    kind: "related",
-                },
-                {
-                    id: "l15",
-                    fromId: "row_17",
-                    toId: "row_31",
-                    kind: "related",
-                },
-                {
-                    id: "l16",
-                    fromId: "row_18",
-                    toId: "row_6",
-                    kind: "related",
-                },
-                {
-                    id: "l17",
-                    fromId: "row_19",
-                    toId: "row_30",
-                    kind: "related",
-                },
-                {
-                    id: "l18",
-                    fromId: "row_20",
-                    toId: "row_30",
-                    kind: "related",
-                },
-                {
-                    id: "l19",
-                    fromId: "row_21",
-                    toId: "row_24",
-                    kind: "related",
-                },
-                {
-                    id: "l20",
-                    fromId: "row_22",
-                    toId: "row_32",
-                    kind: "related",
-                },
-            ]
+            links: []
         }
     },
     {
@@ -7569,7 +7277,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Привлечение к уголовной ответственности",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "ПВА",
+        competenceCenter: "Арест имущества (ст. 77 НК РФ).Привлечение к угловной ответственности.Взыскание залогового имущества",
         strategyProjects: [],
         curatorCA: "Баркарь Александр Владимирович",
         nuZnu: "Исмагилова Эльвира Азатовна",
@@ -7974,120 +7682,7 @@ export const mockFunctions: FunctionRecord[] = [
                     nextAction: ""
                 }
             ],
-            links: [{
-                id: "l1",
-                fromId: "row_2",
-                toId: "row_7",
-                kind: "related",
-            },
-                {
-                    id: "l2",
-                    fromId: "row_2",
-                    toId: "row_17",
-                    kind: "related",
-                },
-                {
-                    id: "l3",
-                    fromId: "row_3",
-                    toId: "row_7",
-                    kind: "related",
-                },
-                {
-                    id: "l4",
-                    fromId: "row_3",
-                    toId: "row_17",
-                    kind: "related",
-                },
-                {
-                    id: "l5",
-                    fromId: "row_4",
-                    toId: "row_7",
-                    kind: "related",
-                },
-                {
-                    id: "l6",
-                    fromId: "row_10",
-                    toId: "row_17",
-                    kind: "related",
-                },
-                {
-                    id: "l7",
-                    fromId: "row_11",
-                    toId: "row_7",
-                    kind: "related",
-                },
-                {
-                    id: "l8",
-                    fromId: "row_11",
-                    toId: "row_19",
-                    kind: "related",
-                },
-                {
-                    id: "l9",
-                    fromId: "row_11",
-                    toId: "row_20",
-                    kind: "related",
-                },
-                {
-                    id: "l10",
-                    fromId: "row_12",
-                    toId: "row_181",
-                    kind: "related",
-                },
-                {
-                    id: "l11",
-                    fromId: "row_13",
-                    toId: "row_7",
-                    kind: "related",
-                },
-                {
-                    id: "l12",
-                    fromId: "row_13",
-                    toId: "row_19",
-                    kind: "related",
-                },
-                {
-                    id: "l13",
-                    fromId: "row_14",
-                    toId: "row_6",
-                    kind: "related",
-                },
-                {
-                    id: "l14",
-                    fromId: "row_15",
-                    toId: "row_18",
-                    kind: "related",
-                },
-                {
-                    id: "l15",
-                    fromId: "row_15",
-                    toId: "row_20",
-                    kind: "related",
-                },
-                {
-                    id: "l16",
-                    fromId: "row_16",
-                    toId: "row_7",
-                    kind: "related",
-                },
-                {
-                    id: "l17",
-                    fromId: "row_16",
-                    toId: "row_18",
-                    kind: "related",
-                },
-                {
-                    id: "l18",
-                    fromId: "row_16",
-                    toId: "row_19",
-                    kind: "related",
-                },
-                {
-                    id: "l19",
-                    fromId: "row_16",
-                    toId: "row_22",
-                    kind: "related",
-                },]
+            links: []
         }
     },
     {
@@ -8095,7 +7690,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Обращение взыскания на предмет залога",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "ПВА",
+        competenceCenter: "Арест имущества (ст. 77 НК РФ).Привлечение к угловной ответственности.Взыскание залогового имущества",
         strategyProjects: [],
         curatorCA: "Баркарь Александр Владимирович",
         nuZnu: "Исмагилова Эльвира Азатовна",
@@ -8464,140 +8059,7 @@ export const mockFunctions: FunctionRecord[] = [
                     nextAction: ""
                 }
             ],
-            links: [
-                {
-                    id: "l1",
-                    fromId: "row_2",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l2",
-                    fromId: "row_2",
-                    toId: "row_15",
-                    kind: "related",
-                },
-                {
-                    id: "l3",
-                    fromId: "row_3",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l4",
-                    fromId: "row_7",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l5",
-                    fromId: "row_7",
-                    toId: "row_15",
-                    kind: "related",
-                },
-                {
-                    id: "l6",
-                    fromId: "row_8",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l7",
-                    fromId: "row_8",
-                    toId: "row_15",
-                    kind: "related",
-                },
-                {
-                    id: "l8",
-                    fromId: "row_8",
-                    toId: "row_18",
-                    kind: "related",
-                },
-                {
-                    id: "l9",
-                    fromId: "row_8",
-                    toId: "row_19",
-                    kind: "related",
-                },
-                {
-                    id: "l10",
-                    fromId: "row_9",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l11",
-                    fromId: "row_9",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l12",
-                    fromId: "row_9",
-                    toId: "row_17",
-                    kind: "related",
-                },
-                {
-                    id: "l13",
-                    fromId: "row_10",
-                    toId: "row_16",
-                    kind: "related",
-                },
-                {
-                    id: "l14",
-                    fromId: "row_11",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l15",
-                    fromId: "row_11",
-                    toId: "row_17",
-                    kind: "related",
-                },
-                {
-                    id: "l16",
-                    fromId: "row_12",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l17",
-                    fromId: "row_12",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l18",
-                    fromId: "row_12",
-                    toId: "row_17",
-                    kind: "related",
-                },
-                {
-                    id: "l19",
-                    fromId: "row_13",
-                    toId: "row_16",
-                    kind: "related",
-                },
-                {
-                    id: "l20",
-                    fromId: "row_14",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l21",
-                    fromId: "row_14",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l22",
-                    fromId: "row_14",
-                    toId: "row_17",
-                    kind: "related",
-                },
-            ]
+            links: []
         }
     },
     {
@@ -8605,7 +8067,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Взыскание за счет имущества",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ВСИ",
+        competenceCenter: "Взыскание за счет имущества НП (ст. 47 НК РФ).Взыскание неналоговых доходов",
         strategyProjects: [],
         curatorCA: "Шулепов Александр Михайлович",
         nuZnu: "Мещеряков Сергей Владимирович",
@@ -9054,7 +8516,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Взыскание за счет дебиторской задолженности",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ВСИ",
+        competenceCenter: "Взыскание за счет имущества НП (ст. 47 НК РФ).Взыскание неналоговых доходов",
         strategyProjects: [],
         curatorCA: "Шулепов Александр Михайлович",
         nuZnu: "Мещеряков Сергей Владимирович",
@@ -9323,10 +8785,10 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Рассмотрение заявлений о предоставлении мер поддержки",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ПРД",
+        competenceCenter: "Площадка реструктуризации долга",
         strategyProjects: [],
         curatorCA: "Иванов Денис Михайлович",
-        nuZnu: "Мещеряков Сергей Владимирович",
+        nuZnu: "",
         managerMiudol: "Коршунова Ангелина Викторовна",
         niZni: "Вехова Анна Михайловна",
         details: {
@@ -9880,10 +9342,10 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Анализ качества и достаточности представленного заинтересованными лицами обеспечения решений о предоставлении отсрочки (рассрочки) (в части оценки обеспечения)",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ПРД",
+        competenceCenter: "Площадка реструктуризации долга",
         strategyProjects: [],
         curatorCA: "Иванов Денис Михайлович",
-        nuZnu: "Мещеряков Сергей Владимирович",
+        nuZnu: "",
         managerMiudol: "Коршунова Ангелина Викторовна",
         niZni: "Вехова Анна Михайловна",
         details: {
@@ -10311,7 +9773,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Формирование и реализация конкурсной массы",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "РКМ",
+        competenceCenter: "Работа с конкурсной массой",
         strategyProjects: [],
         curatorCA: "Чистякова Юлия Анатольевна",
         nuZnu: "Мякишев Семен Владимирович",
@@ -10796,7 +10258,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Взыскание ликвидного дебиторского долга в банкротстве",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "РКМ",
+        competenceCenter: "Работа с конкурсной массой",
         strategyProjects: [],
         curatorCA: "Чистякова Юлия Анатольевна",
         nuZnu: "Мякишев Семен Владимирович",
@@ -11011,7 +10473,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Завершение (прекращение) неэффективных процедур банкротства",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "РКМ",
+        competenceCenter: "Работа с конкурсной массой",
         strategyProjects: [],
         curatorCA: "Чистякова Юлия Анатольевна",
         nuZnu: "Мякишев Семен Владимирович",
@@ -11262,7 +10724,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Сопровождение заявлений о намерении погашения долга перед бюджетом",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "РКМ",
+        competenceCenter: "Работа с конкурсной массой",
         strategyProjects: [],
         curatorCA: "Чистякова Юлия Анатольевна",
         nuZnu: "Мякишев Семен Владимирович",
@@ -11423,7 +10885,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Обработка обращений налогоплательщиков",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "ЦОП",
+        competenceCenter: "Центр оперативной помощи",
         strategyProjects: [],
         curatorCA: "Сапронова Екатерина Николаевна",
         nuZnu: "Исмагилова Эльвира Азатовна",
@@ -11764,7 +11226,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Контроль за исполнением банками обязанностей, установленных Налоговым кодексом Российской Федерации",
         marker: "Преследование при наличии деликтного поведения",
         centralization: "Да",
-        competenceCenter: "КНБ",
+        competenceCenter: "Контроль банков",
         strategyProjects: [],
         curatorCA: "Мещеряков Сергей Владимирович",
         nuZnu: "Мещеряков Сергей Владимирович",
@@ -12151,86 +11613,7 @@ export const mockFunctions: FunctionRecord[] = [
                     nextAction: ""
                 }
             ],
-            links: [
-                {
-                    id: "l1",
-                    fromId: "row_2",
-                    toId: "row_6",
-                    kind: "related",
-                },
-                {
-                    id: "l2",
-                    fromId: "row_3",
-                    toId: "row_6",
-                    kind: "related",
-                },
-                {
-                    id: "l3",
-                    fromId: "row_4",
-                    toId: "row_7",
-                    kind: "related",
-                },
-                {
-                    id: "l4",
-                    fromId: "row_5",
-                    toId: "row_6",
-                    kind: "related",
-                },
-                {
-                    id: "l5",
-                    fromId: "row_10",
-                    toId: "row_15",
-                    kind: "related",
-                },
-                {
-                    id: "l6",
-                    fromId: "row_10",
-                    toId: "row_16",
-                    kind: "related",
-                },
-                {
-                    id: "l7",
-                    fromId: "row_11",
-                    toId: "row_17",
-                    kind: "related",
-                },
-                {
-                    id: "l8",
-                    fromId: "row_11",
-                    toId: "row_18",
-                    kind: "related",
-                },
-                {
-                    id: "l9",
-                    fromId: "row_12",
-                    toId: "row_19",
-                    kind: "related",
-                },
-                {
-                    id: "l10",
-                    fromId: "row_13",
-                    toId: "row_15",
-                    kind: "related",
-                },
-                {
-                    id: "l11",
-                    fromId: "row_13",
-                    toId: "row_16",
-                    kind: "related",
-                },
-                {
-                    id: "l12",
-                    fromId: "row_14",
-                    toId: "row_20",
-                    kind: "related",
-                },
-                {
-                    id: "l13",
-                    fromId: "row_14",
-                    toId: "row_21",
-                    kind: "related",
-                },
-            ]
+            links: []
         }
     },
     {
@@ -12238,7 +11621,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Списание безнадежной к взысканию задолженности (ст. 59 НК РФ, 47.2 БК РФ)",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "СБЗ",
+        competenceCenter: "Списание безнадежной к взысканию задолженности",
         strategyProjects: [],
         curatorCA: "Юсупова Жанара Кайртановна",
         nuZnu: "Шалыгина Наталья Викторовна",
@@ -12553,50 +11936,7 @@ export const mockFunctions: FunctionRecord[] = [
                     nextAction: ""
                 }
             ],
-            links: [
-                {
-                    id: "l1",
-                    fromId: "row_2",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l2",
-                    fromId: "row_3",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l3",
-                    fromId: "row_4",
-                    toId: "row_5",
-                    kind: "related",
-                },
-                {
-                    id: "l4",
-                    fromId: "row_10",
-                    toId: "row_15",
-                    kind: "related",
-                },
-                {
-                    id: "l5",
-                    fromId: "row_11",
-                    toId: "row_15",
-                    kind: "related",
-                },
-                {
-                    id: "l6",
-                    fromId: "row_12",
-                    toId: "row_15",
-                    kind: "related",
-                },
-                {
-                    id: "l7",
-                    fromId: "row_13",
-                    toId: "row_16",
-                    kind: "related",
-                },
-            ]
+            links: []
         }
     },
     {
@@ -12604,7 +11944,7 @@ export const mockFunctions: FunctionRecord[] = [
         name: "Восстановление пропущенных сроков в судебном порядке",
         marker: "Урегулирование задолженности",
         centralization: "Да",
-        competenceCenter: "СБЗ",
+        competenceCenter: "Списание безнадежной к взысканию задолженности",
         strategyProjects: [],
         curatorCA: "Юсупова Жанара Кайртановна",
         nuZnu: "Шалыгина Наталья Викторовна",
@@ -12883,44 +12223,7 @@ export const mockFunctions: FunctionRecord[] = [
                     nextAction: ""
                 }
             ],
-            links: [
-                {
-                    id: "l1",
-                    fromId: "row_2",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l2",
-                    fromId: "row_3",
-                    toId: "row_4",
-                    kind: "related",
-                },
-                {
-                    id: "l3",
-                    fromId: "row_8",
-                    toId: "row_13",
-                    kind: "related",
-                },
-                {
-                    id: "l4",
-                    fromId: "row_9",
-                    toId: "row_13",
-                    kind: "related",
-                },
-                {
-                    id: "l5",
-                    fromId: "row_10",
-                    toId: "row_14",
-                    kind: "related",
-                },
-                {
-                    id: "l6",
-                    fromId: "row_11",
-                    toId: "row_13",
-                    kind: "related",
-                },
-            ]
+            links: []
         }
     }
 ];

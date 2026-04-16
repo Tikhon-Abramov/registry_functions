@@ -316,8 +316,7 @@ export default function Home() {
             <FormControl size="small" fullWidth sx={sxField}>
               <InputLabel sx={{ fontSize: "0.82rem" }}>НУ/ЗНУ</InputLabel>
               <Select
-                //value={form.competenceCenter === "РАУ" ? "Шляпин И.Г." : form.competenceCenter === "ПРД" ? "Мещеряков С.В." : form.nuZnu}
-                value={form.nuZnu}
+                value={form.competenceCenter === "РАУ" ? "Шляпин И.Г." : form.competenceCenter === "ПРД" ? "Мещеряков С.В." : form.nuZnu}
                 onChange={handleSelectChange("nuZnu")}
                 label="НУ/ЗНУ"
                 sx={sxSelect}

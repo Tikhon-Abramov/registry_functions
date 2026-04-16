@@ -302,7 +302,7 @@ export default function AddItemForm({ allRows, onSaveSingle, onSaveDual, onQuick
         {renderTextField("Как используется артефакт", currentFields.artifactUsage, "artifactUsage", "input-artifact-usage", true)}
         {renderTextField("Зачем выполняется", currentFields.purpose, "purpose", "input-purpose", true)}
         {renderSelect("Эффективность", currentFields.efficiency, EFFICIENCIES, "efficiency", "select-efficiency")}
-        {renderSelect("Кому передать", currentFields.transferTo, ["", ...TRANSFER_TO_OPTIONS], "transferTo", "select-transfer-to")}
+        {/*{renderSelect("Кому передать", currentFields.transferTo, ["", ...TRANSFER_TO_OPTIONS], "transferTo", "select-transfer-to")}*/}
         {/*{renderSelect("Пункт контроля", currentFields.controlPoint, ["", ...CONTROL_POINTS], "controlPoint", "select-control-point")}*/}
         {/*{renderSelect("Следующее действие", currentFields.nextAction, ["", ...NEXT_ACTIONS], "nextAction", "select-next-action")}*/}
       </Box>
